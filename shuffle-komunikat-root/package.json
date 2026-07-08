@@ -1,0 +1,15 @@
+{
+  "name": "shuffle-komunikat",
+  "version": "1.0.0",
+  "description": "Shuffle press-release (komunikat) intake form + Word generator + email delivery",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "docx": "^8.5.0",
+    "express": "^4.19.2",
+    "resend": "^3.5.0"
+  }
+}
